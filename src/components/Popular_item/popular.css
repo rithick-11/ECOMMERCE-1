@@ -1,0 +1,9 @@
+.popular-container{
+    height: 90vh;
+}
+.popular-items{
+    display: flex;
+    gap: 12px;
+    margin-top: 32px;
+    justify-content: center;
+}
