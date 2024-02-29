@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/github.io/ECOMMERCE-1/static/css/main.ea834015.css",
+    "main.js": "/github.io/ECOMMERCE-1/static/js/main.c15ca609.js",
+    "static/js/453.8ab44547.chunk.js": "/github.io/ECOMMERCE-1/static/js/453.8ab44547.chunk.js",
+    "static/media/hero_image.png": "/github.io/ECOMMERCE-1/static/media/hero_image.09ff1c4114792a6143c2.png",
+    "static/media/hand_icon.png": "/github.io/ECOMMERCE-1/static/media/hand_icon.9c7487cecb600f30901b.png",
+    "static/media/rithi-x-shop.png": "/github.io/ECOMMERCE-1/static/media/rithi-x-shop.08d813f49fc9c9abc32a.png",
+    "index.html": "/github.io/ECOMMERCE-1/index.html",
+    "main.ea834015.css.map": "/github.io/ECOMMERCE-1/static/css/main.ea834015.css.map",
+    "main.c15ca609.js.map": "/github.io/ECOMMERCE-1/static/js/main.c15ca609.js.map",
+    "453.8ab44547.chunk.js.map": "/github.io/ECOMMERCE-1/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea834015.css",
+    "static/js/main.c15ca609.js"
+  ]
+}
