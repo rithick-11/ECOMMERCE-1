@@ -1,0 +1,11 @@
+.footer{
+    background: linear-gradient(white, rgba(28, 173, 28, 0.829));
+    padding: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-tems{
+    display: flex;
+    flex-direction: column;
+    
+}
