@@ -1,0 +1,42 @@
+.offer-conatainer{
+    height: 45vh;
+    background: linear-gradient(to left, white, rgba(4, 163, 4, 0.521));
+    width: 80%;
+    margin:48px auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.267);
+    cursor: pointer;
+    transition: 3ms;
+}
+.offer-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    font-size: 56px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.offer-left p{
+    text-shadow: 1px 1px rgba(4, 163, 4, 0.521)
+}
+
+.offer-left p span{
+    color: purple;
+    font-weight: 700;
+}
+
+.offer-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-right img{
+    display: block;
+    height: 120%;
+}
+.offer-conatainer:hover{
+    box-shadow: 15px 15px 20px rgba(255, 0, 0, 0.267);
+}

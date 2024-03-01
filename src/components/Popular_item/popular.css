@@ -1,5 +1,6 @@
 .popular-container{
-    height: 90vh;
+    height: auto;
+    margin-bottom: 64px;
 }
 .popular-items{
     display: flex;
