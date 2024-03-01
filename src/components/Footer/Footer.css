@@ -1,11 +1,40 @@
 .footer{
     background: linear-gradient(white, rgba(28, 173, 28, 0.829));
-    padding: 32px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding: 32px 32px 1px 32px;
 }
 .footer-tems{
     display: flex;
     flex-direction: column;
-    
+    gap: 6px;
+}
+.footer-tems a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.footer-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 18px;
+}
+.tems-condition{
+    text-align: center;
+    margin: 12px;
+    color: black;
+    font-family: 'roboto';
+    font-weight: 500;
+}
+.social-icon li{
+    list-style: none;
+    margin-bottom: 6px;
+}
+.social-icon {
+    padding: 0px;
+}
+.social-icon h1{
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+.social-icon li  i{
+    margin-right: 12px;
 }

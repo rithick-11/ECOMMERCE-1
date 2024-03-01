@@ -12,7 +12,9 @@ const News_letter = () => {
         <div className='news-letter-right'>
             <label htmlFor="Email">To Subcribe</label>
             <input type="email" placeholder='Enter yout Email addres' />
-            <button>Submit</button>
+            <div>
+              <button>Submit</button>
+            </div>
         </div>
     </div>
   )
