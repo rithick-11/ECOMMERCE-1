@@ -9,9 +9,9 @@ const shop = () => {
   return (
     <div>
       <Hero/>
-      <div className='Hero-container'>
+      <div className='component-Container'>
         <Popular/>
-        <Offer_card/>
+        <Offer_card className=""/>
         <New_collection />
       </div>
       

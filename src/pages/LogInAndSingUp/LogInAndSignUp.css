@@ -1,0 +1,80 @@
+.log-in-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "firstName Lastname"
+        "Email Email"
+        "setPassword confirmPassword"
+        "terms terms"
+    ;
+    gap: 22px;
+}
+.form-container{
+    width: 60%;
+    padding: 32px;
+    box-shadow: 15px 15px 30px green;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid green;
+    border-radius: 12px;
+}
+.login-singup-container{
+    display: flex;
+    justify-content: center;
+}
+.login-firstName{
+    grid-area: firstName;   
+}
+.login-lastName{
+    grid-area: firstName;   
+}
+.login-email-field{
+    grid-area: Email; 
+}
+.login-setPassword{
+    grid-area: setPassword;
+}
+.login-confirmPassword{
+    grid-area: confirmPassword;
+}
+.log-in-form div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.log-in-form div label{
+    font-size: 18px;
+    font-weight: 500;
+}
+.log-in-form div input{
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.accept-temrs{
+    gap: 0px;
+    flex-direction: row;
+    grid-area: terms;
+}
+.accept-temrs input{
+    width: 12px;
+}
+.log-in-form p{
+    font-size: 16px;
+}
+.log-in-form p span{
+    font-weight: 600;
+    cursor: pointer;
+}
+.log-in-form button{
+    padding: 6px 12px;
+    border: none;
+    background-color: rgba(28, 173, 28, 0.829);
+    color: lavenderblush;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.colletion-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    margin: 32px 0px;
+}
+.category-banner{
+    width: 100%;
+    background-color: aqua;
+    box-shadow: 5px 5px 10px orange;
+    margin-bottom: 32px;
+}

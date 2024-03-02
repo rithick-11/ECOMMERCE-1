@@ -1,8 +1,6 @@
 .offer-conatainer{
     height: 45vh;
     background: linear-gradient(to left, white, rgba(4, 163, 4, 0.521));
-    width: 80%;
-    margin:48px auto;
     display: flex;
     justify-content: space-around;
     box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.267);
